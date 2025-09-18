@@ -49,11 +49,11 @@ theme = "vpn-guru-theme"
   TocOpen = false
   ShowBreadCrumbs = false
   ShowPostNavLinks = true
-  author = ["App Guru"]
+  author = ["Russian Guru"]
   
   
   # Яндекс.Метрика ID
-  yandexMetrika = "000000000"
+  yandexMetrika = "104198790"
   
   # Настройки для карты сайта
   [params.sitemap]
@@ -66,6 +66,6 @@ theme = "vpn-guru-theme"
     title = "Лучшая работоспособность в России"
     text = "**X Rocket VPN** - лучший Телеграм-бот, реально работающий в России"
     iconUrl = "https://imagestoring.fra1.cdn.digitaloceanspaces.com/71ED88D8-53F8-4CFA-A495-0E558C8F7424.png"
-    targetUrl = "https://t.me/X_Rocket_VPN_bot?start=ref-b-9"
+    targetUrl = "https://t.me/X_Rocket_VPN_bot?start=ref-b-2"
     buttonText = "Использовать сейчас"
 
