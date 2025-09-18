@@ -1,0 +1,71 @@
+baseURL = "https://russian-guru.github.io"
+languageCode = "ru"
+title = "Russian Guru"
+theme = "vpn-guru-theme"
+
+# Настройки URL для более читаемых ссылок
+[permalinks]
+  posts = "/posts/:contentbasename/"
+  tags = "/tags/:slug/"
+  categories = "/categories/:slug/"
+
+# Настройки для транслитерации русских тегов
+[slugify]
+  paths = "ascii"
+  case = "lower"
+
+# Настройки таксономий
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Настройки для русских URL
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[pagination]
+  pagerSize = 15
+  
+# Включаем robots.txt
+# enableRobotsTXT = true
+
+# Настройки sitemap
+[sitemap]
+  changefreq = "hourly"
+  priority = 0.5
+  filename = "sitemap.xml"
+  # Отключаем автоматическую генерацию
+  disable = true
+
+# Отключаем автоматическую генерацию карты сайта для таксономий
+[params]
+  subtitle = 'Русский блог о сервисах и приложениях'
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowWordCount = false
+  ShowToc = true
+  TocOpen = false
+  ShowBreadCrumbs = false
+  ShowPostNavLinks = true
+  author = ["App Guru"]
+  
+  
+  # Яндекс.Метрика ID
+  yandexMetrika = "000000000"
+  
+  # Настройки для карты сайта
+  [params.sitemap]
+    # Отключаем автоматическую генерацию для таксономий
+    disableTaxonomyPages = true
+  
+  # Параметры рекламного блока
+  [params.ads]
+    enabled = true
+    title = "Лучшая работоспособность в России"
+    text = "**X Rocket VPN** - лучший Телеграм-бот, реально работающий в России"
+    iconUrl = "https://imagestoring.fra1.cdn.digitaloceanspaces.com/71ED88D8-53F8-4CFA-A495-0E558C8F7424.png"
+    targetUrl = "https://t.me/X_Rocket_VPN_bot?start=ref-b-9"
+    buttonText = "Использовать сейчас"
+

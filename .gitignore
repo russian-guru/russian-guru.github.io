@@ -1,0 +1,8 @@
+/public
+/resources
+/.hugo_build.lock
+.DS_Store
+
+# Локальный конфиг для разработки
+hugo.local.toml
+hugo-dev.log
